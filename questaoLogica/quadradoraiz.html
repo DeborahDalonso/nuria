@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Quadrado e Raiz</title>
+</head>
+
+<body>
+    <div class="d-flex align-items-center justify-content-center vh-100">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-row mb-3">
+                    <div class="form-area col-md-12">
+                        <label for="date" class="form-label">Primeiro Número:</label>
+                        <input type="number" class="form-control" id="numberOne" placeholder="Ex: 1">
+                        <div class="form-text">Insira um número.</div>
+                    </div>
+                </div>
+                <div class="form-row mb-3">
+                    <div class="form-area col-md-12">
+                        <label for="date" class="form-label">Segundo Número:</label>
+                        <input type="number" class="form-control" id="numberTwo" placeholder="Ex: 2">
+                        <div class="form-text">Insira um número.</div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="quadradoraiz()">Conferir</button>
+            <!-- a ação de click no botao é observada pela função onclick, quando o click é registrado executa a funçao quadradoraiz -->
+        </div>
+
+        <script src="quadradoraiz.js"></script>
+</body>
+
+</html>
