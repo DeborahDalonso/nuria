@@ -25,7 +25,8 @@ void main()
    
    system("clear");//limpo a janela
    
-   //caso houvesse uma entrada n de numeros poderiamos ordenar usando bubble sort ou heap sort, é mais eficiente em complexidade de tempo
+   //poderia ser feito apenas com ifs, sem um vetor, mas como nas demais liguagens que fiz usei ifs quis mostrar uma opçao escalavel
+   //caso houvesse uma entrada n de numeros poderiamos ordenar usando bubble sort ou heap sort, assim a primeira posição seria o menor e ultima a maior, é mais eficiente em complexidade de tempo
     if(vetor[0] > vetor[1]){ //ordenando o vetor para que o menor numero seja o primeiro e o maior o ultimo usando substituição 
         maior = vetor[0];
         vetor[0] = vetor[1];
